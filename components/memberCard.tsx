@@ -1,5 +1,4 @@
 import { Card, CardHeader, CardBody } from "@nextui-org/card";
-
 import { Divider } from "@nextui-org/divider";
 import { Image } from "@nextui-org/image";
 

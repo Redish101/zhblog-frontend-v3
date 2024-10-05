@@ -33,24 +33,24 @@ export default function Home() {
         </Link>
       </div>
       <div className={subtitle({ class: "mt-8 text-center" })}>优秀成员</div>
-      <div className="flex gap-3">
+      <div className="flex gap-3 flex-wrap justify-center">
         <MemberCard
           description="博客描述博客描述博客描述博客描述博客描述"
-          name="博客名称"
-          link="https://www.example.com"
           image="https://via.placeholder.com/40x40"
+          link="https://www.example.com"
+          name="博客名称"
         />
         <MemberCard
           description="博客描述博客描述博客描述博客描述博客描述"
-          name="博客名称"
-          link="https://www.example.com"
           image="https://via.placeholder.com/40x40"
+          link="https://www.example.com"
+          name="博客名称"
         />
         <MemberCard
           description="博客描述博客描述博客描述博客描述博客描述"
-          name="博客名称"
-          link="https://www.example.com"
           image="https://via.placeholder.com/40x40"
+          link="https://www.example.com"
+          name="博客名称"
         />
       </div>
     </section>
