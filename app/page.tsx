@@ -32,23 +32,20 @@ export default function Home() {
           查看所有成员
         </Link>
       </div>
-      <div className={subtitle({ class: "mt-8 text-center" })}>优秀成员</div>
+      <div className={subtitle({ class: "mt-8 text-center" })}>随机博客</div>
       <div className="flex gap-3 flex-wrap justify-center">
         <MemberCard
           description="博客描述博客描述博客描述博客描述博客描述"
-          image="https://via.placeholder.com/40x40"
           link="https://www.example.com"
           name="博客名称"
         />
         <MemberCard
           description="博客描述博客描述博客描述博客描述博客描述"
-          image="https://via.placeholder.com/40x40"
           link="https://www.example.com"
           name="博客名称"
         />
         <MemberCard
           description="博客描述博客描述博客描述博客描述博客描述"
-          image="https://via.placeholder.com/40x40"
           link="https://www.example.com"
           name="博客名称"
         />
